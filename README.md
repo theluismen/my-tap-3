@@ -4,8 +4,8 @@ Este repositorio contiene mis implementaciones a los ejercicios propuestos en la
 ## Ejercicios Hechos
 - [x] Ejercicio 1
 - [x] Ejercicio 2
-- [ ] Ejercicio 3
-- [ ] Ejercicio 4
+- [x] Ejercicio 3
+- [x] Ejercicio 4
 - [x] Ejercicio 5
 - [x] Ejercicio 6 - 99%
 - [x] Ejercicio 7
