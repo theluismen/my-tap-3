@@ -1,6 +1,8 @@
 package exercise7;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class NameRepository implements Iterable<Object> {
 
@@ -9,6 +11,7 @@ public class NameRepository implements Iterable<Object> {
     public Iterator<Object> iterator() {
         return new NameIterator();
     }
+
 
     private class NameIterator implements Iterator<Object> {
 
