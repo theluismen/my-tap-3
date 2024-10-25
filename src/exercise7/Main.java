@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         NameRepository names = new NameRepository();
-        Iterator<String> it = names.iterator();
+        Iterator<Object> it = names.iterator();
 
         while ( it.hasNext() ) {
             System.out.println( it.next() );

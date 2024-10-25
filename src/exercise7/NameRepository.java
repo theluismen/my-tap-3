@@ -2,16 +2,15 @@ package exercise7;
 
 import java.util.Iterator;
 
-public class NameRepository implements Iterable<String> {
+public class NameRepository implements Iterable<Object> {
 
     public String[] names = {"Robert" , "John" ,"Julie" , "Lora"};
 
-    @Override
-    public Iterator<String> iterator() {
+    public Iterator<Object> iterator() {
         return new NameIterator();
     }
 
-    private class NameIterator implements Iterator<String> {
+    private class NameIterator implements Iterator<Object> {
 
         int index;
 
@@ -21,7 +20,7 @@ public class NameRepository implements Iterable<String> {
         }
 
         @Override
-        public String next() {
+        public Object next() {
             return names[index++];
         }
     }
