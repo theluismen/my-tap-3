@@ -8,6 +8,6 @@ Este repositorio contiene mis implementaciones a los ejercicios propuestos en la
 - [ ] Ejercicio 4
 - [x] Ejercicio 5
 - [x] Ejercicio 6 - 99%
-- [ ] Ejercicio 7
+- [x] Ejercicio 7
 - [ ] Ejercicio 8
 - [ ] Ejercicio 9
